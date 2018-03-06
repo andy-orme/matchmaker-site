@@ -1,0 +1,300 @@
+/*
+
+Colours:
+
+Light yellow:   #FFF653;
+Mid yellow:     #CEC441;
+
+Light grey:     #C6C6C6;
+Mid grey:       #AAAAAA;
+Dark grey:      #999999;
+
+*/
+
+/*******************
+  BASE SETUP
+*******************/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " "; 
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.container {
+  margin: 0 auto;
+  width: 95%;
+}
+
+/*******************
+  FONTS
+*******************/
+
+body {
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+h1,
+.strapline p, 
+.teasers h2 {
+	font-family: "Merriweather", serif;
+}
+
+.cta,
+nav ul li:nth-child(-n+2) a {
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+}
+
+/*******************
+  GENERAL
+*******************/
+
+html {
+	font-size: 22px;
+	line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+}
+
+.cta {
+	border-radius: 5px;
+	color: #000;
+	display: block;
+	font-size: 22px; 
+	padding: 10px;
+	position: relative;
+	text-align: center;
+	z-index: 10;
+}
+
+.cta-yellow {
+	background-color: #FFF653;
+	box-shadow: 0 3px 0 #CEC441;
+
+}
+
+.cta-grey {
+	background-color: #C6C6C6;
+	box-shadow: 0 3px 0 #999;
+
+}
+
+li {
+	list-style: none;
+}
+
+/*******************
+  HEADER
+*******************/
+
+header {
+	background-color: #000;
+	padding: 20px 0;
+	border-bottom: 5px solid #FFF653;
+}
+
+h1 {
+	color: #FFF653;
+	font-size: 36px;
+	letter-spacing: 1px;
+	float: left;
+	margin: 0;
+}
+
+nav {
+	float: right;
+	margin-top: 14px;
+}
+
+nav ul {
+	margin: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+nav a {
+	color: #FFF;
+	line-height: 0;
+}
+
+nav a.active {
+    background-color: #AAA;
+    color: white;
+    padding: 32px 3px 30px;
+}
+
+
+/*******************
+  STRAPLINE
+*******************/
+
+.strapline {
+	background-color: #C6C6C6;
+	border-top: 1px solid #CEC441;
+	box-shadow: 0 2px 3px rgba(0,0,0,.5);
+	padding: 15px 0;
+	position: relative;
+	text-align: center;
+	z-index: 10;
+}
+
+.strapline p {
+	margin: 0;
+	font-size: 28px;
+	font-style: italic;
+}
+
+.taste {
+	color: #999;
+	text-decoration: line-through;
+}
+
+.are {
+	border-bottom: 3px solid #FFF653;
+}
+
+/*******************
+  HERO BANNER
+*******************/
+
+.hero {
+	background-image: url(../images/coworking.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20px 0;
+}
+
+.hero .intro-content {
+	background-color: rgba(255,255,255,.7);
+	margin-left: auto;
+	width: 40%;
+	padding: 20px 30px 40px;
+}
+
+.intro-content h2 {
+	margin: 10px 0;
+}
+
+.intro-content p {
+	margin: 0 0 30px;
+}
+
+/*******************
+  TEASERS
+*******************/
+
+.teasers {
+	padding: 20px 0;
+}
+
+.teasers ul {
+	padding: 0;
+	margin: 0;
+}
+
+.teaser-block {
+	float: left;
+	width: 33.33333%;
+	padding: 20px;
+	border-right: 1px solid #C6C6C6;
+}
+
+.teaser-block:last-child {
+	border: none;
+}
+
+.teaser-block h2 {
+	margin: 0 0 10px;
+}
+
+.teaser-block p {
+	margin: 0 0 30px;
+}
+
+/*******************
+  FOOTER
+*******************/
+
+footer {
+	background-color: #000;
+	padding: 20px 0;
+	color: #FFF;
+}
+
+/*******************
+  GRID LISTING
+*******************/
+
+.grid-listing {
+	background-color: #C6C6C6;
+	padding: 30px 0 50px;
+}
+
+.grid-listing ul {
+	padding: 0;
+	margin: 0;
+}
+
+.grid-item {
+	background-color: #FFF;
+	float: left;
+	margin: 1%;
+	padding: 15px;
+	width: 23%;
+}
+
+.placeholder-img {
+	background-color: #C6C6C6;
+	width: 100%;
+	text-align: center;
+	color: #999;
+	padding: 45% 0;
+}
+
+.grid-item h3 {
+	font-weight: 400;
+	font-size: 28px;
+	margin-bottom: 0;
+}
+
+.grid-item ul {
+	padding: 0;
+	margin: 0 0 20px;
+}
+
+.grid-item li {
+	display: inline-block;
+	background-color: #666;
+	color: #FFF;
+	border-radius: 90px;
+	padding: 0 15px;
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
