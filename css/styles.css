@@ -112,6 +112,10 @@ h1 {
 	margin: 0;
 }
 
+h1 a:visited {
+	color: #FFF653;
+}
+
 nav {
 	float: right;
 	margin-top: 14px;
@@ -241,7 +245,7 @@ footer {
 
 .grid-listing {
 	background-color: #C6C6C6;
-	padding: 30px 0 50px;
+	padding: 50px 0 30px;
 }
 
 .grid-listing ul {
@@ -249,20 +253,20 @@ footer {
 	margin: 0;
 }
 
-.grid-item {
+.grid-listing .grid-item {
 	background-color: #FFF;
 	float: left;
-	margin: 1%;
+	margin: 0 25px 25px 0;
 	padding: 15px;
-	width: 23%;
+	width: 23.3%;
 }
 
-.placeholder-img {
-	background-color: #C6C6C6;
-	width: 100%;
-	text-align: center;
-	color: #999;
-	padding: 45% 0;
+.grid-listing .grid-item img {
+	width: 100%
+}
+
+.grid-item:nth-child(4n+4) {
+	margin: 0 0 30px 0;
 }
 
 .grid-item h3 {
